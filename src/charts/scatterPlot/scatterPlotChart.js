@@ -9,8 +9,8 @@ import { line as scatterPlotLoadingState } from 'britecharts/dist/umd/loading.mi
 const scatterPlot = {};
 
 scatterPlot.create = (el, data, configuration = {}) => {
-    let container = select(el);
-    let chart = scatterPlotChart();
+    const container = select(el);
+    const chart = scatterPlotChart();
 
     validateContainer(container);
     validateConfiguration(chart, configuration);
@@ -22,7 +22,7 @@ scatterPlot.create = (el, data, configuration = {}) => {
 };
 
 scatterPlot.update = (el, data, configuration = {}, chart) => {
-    let container = select(el);
+    const container = select(el);
 
     validateContainer(container);
     validateConfiguration(chart, configuration);

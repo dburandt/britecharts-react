@@ -22,9 +22,10 @@ const CHARTS = {
     GroupedBar: `${PATHS.charts}/groupedBar/GroupedBar.js`,
     Legend: `${PATHS.charts}/legend/Legend.js`,
     Line: `${PATHS.charts}/line/Line.js`,
+    ScatterPlot: `${PATHS.charts}/scatterPlot/ScatterPlot.js`,
+    Sparkline: `${PATHS.charts}/sparkline/Sparkline.js`,
     StackedArea: `${PATHS.charts}/stackedArea/StackedArea.js`,
     StackedBar: `${PATHS.charts}/stackedBar/StackedBar.js`,
-    Sparkline: `${PATHS.charts}/sparkline/Sparkline.js`,
     Step: `${PATHS.charts}/step/Step.js`,
     Tooltip: `${PATHS.charts}/tooltip/Tooltip.js`,
 };
