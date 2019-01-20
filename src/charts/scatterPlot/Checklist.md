@@ -1,8 +1,8 @@
 ###To-do list for generating a component with Plop
 
-[ ] Complete PropTypes for React component in XYZChart.js
-[ ] Complete data generation methods in xyzChart.fixtures.js
-[ ] Import the correct loading state in xyzChart.js
+[X] Complete PropTypes for React component in XYZChart.js
+[X] Complete data generation methods in xyzChart.fixtures.js
+[X] Import the correct loading state in xyzChart.js
 [ ] If the grid prop is not supported by your component, remove the test for it in xyzChart.test.js
 [ ] Fill in the links to API and data input schema in Readme.md
 [ ] Add your chart to src/charts/index.js exports
